@@ -1,6 +1,5 @@
 # Patient Stratification on TCGA-BRCA Gene Expression Data
 
-**[Your Name]** · [your.email@example.com] · [LinkedIn]
 
 An unsupervised patient stratification pipeline built on Databricks (PySpark + MLlib + MLflow), applied to TCGA breast cancer (BRCA) gene expression data. The pipeline clusters patients directly from expression profiles — with no clinical subtype labels used as input — and the resulting clusters are then validated against known PAM50 molecular subtypes and canonical breast cancer biomarkers.
 
